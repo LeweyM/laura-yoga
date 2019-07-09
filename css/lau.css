@@ -1,0 +1,57 @@
+.lau-border {
+  border: solid 2px #707579;
+  padding: 26px;
+  font-size: 20px;
+  margin: 27px;
+}
+
+.yoga {
+  position: relative;
+}
+
+.yoga h4 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.yoga p {
+  letter-spacing: 1px;
+}
+
+.yoga__fig {
+    overflow: hidden;
+    margin: 20px 0;
+    height: 500px;
+}
+
+.yoga__fig img {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.icon {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 20px;
+}
+
+.icon-lotus {
+  background: url(../images/yoga-images/icon-lotus.png);
+}
+
+.crop {
+  overflow: hidden;
+}
+
+.crop img {
+  width: 100%;
+  margin-top: -180px;
+}
+
+.vertical-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
