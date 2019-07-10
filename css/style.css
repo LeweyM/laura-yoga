@@ -442,7 +442,7 @@ li > a:only-child:after { content: ''; }
 }
 .overlay {
     min-height: 770px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
 }
 .overlay1 {
     min-height: 770px;
