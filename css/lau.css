@@ -36,6 +36,12 @@
   height: 20px;
 }
 
+.yoga-icon {
+  padding-right: 6px;
+  font-size: 29px;
+  color: #f3b45d;
+}
+
 .icon-lotus {
   background: url(../images/yoga-images/icon-lotus.png);
 }
