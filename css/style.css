@@ -1,6 +1,6 @@
-
 html,
 body {
+    --lau-orange: #f3b45d;
     margin: 0;
     font-size: 100%;
     background: #fff;
@@ -1131,20 +1131,6 @@ form.newsletter {
 }
 
 /*-- //coming sooon page --*/
-
-
-/*-- move top --*/
-a.move-top {
-    width: 34px;
-    height: 34px;
-    background: url(../images/move-top.png) no-repeat;
-    display: inline-block;
-    position: fixed;
-    bottom: 4%;
-    right: 2%;
-    z-index: 0;
-}
-/*-- //move top --*/
 
 
 /*-- Responsive design --*/

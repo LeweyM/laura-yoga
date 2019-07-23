@@ -1,3 +1,4 @@
+
 .lau-border {
   border: solid 2px #707579;
   padding: 26px;
@@ -39,8 +40,19 @@
 .yoga-icon {
   padding-right: 6px;
   font-size: 29px;
-  color: #f3b45d;
+  color: var(--lau-orange);
 }
+
+/*-- move top --*/
+a.move-top {
+  color: var(--lau-orange);
+  font-size: 34px;
+  position: fixed;
+  bottom: 4%;
+  right: 2%;
+  z-index: 0;
+}
+/*-- //move top --*/
 
 .icon-lotus {
   background: url(../images/yoga-images/icon-lotus.png);
