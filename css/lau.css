@@ -73,3 +73,8 @@ a.move-top {
   flex-direction: column;
   justify-content: center;
 }
+
+.section-image {
+  clip-path: circle();
+  height: 500px;
+}
