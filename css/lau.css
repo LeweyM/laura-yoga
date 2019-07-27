@@ -76,5 +76,5 @@ a.move-top {
 
 .section-image {
   clip-path: circle();
-  height: 500px;
+  width: 500px;
 }
