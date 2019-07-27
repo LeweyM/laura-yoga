@@ -441,11 +441,11 @@ li > a:only-child:after { content: ''; }
     min-height: 770px;
 }
 .overlay {
-    min-height: 770px;
+    min-height: 100vh;
     background: rgba(0, 0, 0, 0.1);
 }
 .overlay1 {
-    min-height: 770px;
+    min-height: 100vh;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -1137,12 +1137,12 @@ form.newsletter {
 
 @media(max-width:1366px) {
 	.banner-top, .banner-top1, .banner-top2, .banner-top3,.overlay,.overlay1 {
-		min-height: 750px;
+        min-height: 100vh;
 	}
 }
 @media(max-width:1280px) {
 	.banner-top, .banner-top1, .banner-top2, .banner-top3,.overlay,.overlay1 {
-		min-height: 720px;
+        min-height: 100vh;
 	}
 }
 @media(max-width:1080px) {
@@ -1153,7 +1153,7 @@ form.newsletter {
 		padding-top: 14em;
 	}
 	.banner-top, .banner-top1, .banner-top2, .banner-top3,.overlay,.overlay1 {
-		min-height: 650px;
+        min-height: 100vh;
 	}
 	p.about-text {
 		width: 85%;
@@ -1204,7 +1204,7 @@ form.newsletter {
 		line-height: 25px;
 	}	
 	.banner-top, .banner-top1, .banner-top2, .banner-top3,.overlay,.overlay1 {
-		min-height: 600px;
+        min-height: 100vh;
 	}
 	.about-left h3 {
 		font-size: 29px;
@@ -1339,7 +1339,7 @@ form.newsletter {
 		letter-spacing: 2px;
 	}
 	.banner-top, .banner-top1, .banner-top2, .banner-top3, .overlay, .overlay1 {
-		min-height: 570px;
+		min-height: 100vh;
 	}
 	.team-text h4 {
 		font-size: 18px;
@@ -1366,7 +1366,7 @@ form.newsletter {
 		margin-bottom: 2em;
 	}
 	.banner-top, .banner-top1, .banner-top2, .banner-top3, .overlay, .overlay1 {
-		min-height: 520px;
+		min-height: 100vh;
 	}
 	.blog-grids {
 		margin-bottom: 70px;
@@ -1386,7 +1386,7 @@ form.newsletter {
 		font-size: 2.2em;
 	}
 	.banner-top, .banner-top1, .banner-top2, .banner-top3, .overlay, .overlay1 {
-		min-height: 500px;
+		min-height: 100vh;
 	}
 	.banner-section-info {
 		padding-top: 8em;
