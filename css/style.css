@@ -219,7 +219,7 @@ li > a:only-child:after { content: ''; }
 		float: none;
 	}
 	.menu li.active a {
-		color: #009f4d;
+		color: var(--lau-orange);
 	}
 	nav ul li span {
 		color: #333;
@@ -246,7 +246,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration: none;
 		border: none;
 		float: right;
-		background-color: #009f4d;
+		background-color: var(--lau-orange);
 		color: #fff;
 	}
 	.menu .toggle {
@@ -478,7 +478,7 @@ p.about-text {
 }
 .feature-grids .f-icon {
     vertical-align: middle;
-    background: #009f4d;
+    background: var(--lau-orange);
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -517,7 +517,7 @@ p.about-text {
 
 /*-- works --*/
 .serives-section {
-    background: #009f4d;
+    background: var(--lau-orange);
 }
 .serives-section h3.heading{
 	color: #fff;
@@ -614,7 +614,7 @@ p.about-text {
     text-transform: uppercase;
 }
 .blog-info h4 span.fa {
-    color: #009f4d;
+    color: var(--lau-orange);
 }
 /*-- //blog info --*/
 
@@ -666,7 +666,7 @@ p.about-text {
     padding: 12px 25px;
     margin-top: 30px;
     border-radius: 4px;
-    background: #009f4d;
+    background: var(--lau-orange);
     display: inline-block;
 }
 /*--  //text --*/
@@ -768,7 +768,7 @@ footer{
 
 /*-- about page --*/
 .about-left h5 {
-    color: #009f4d;
+    color: var(--lau-orange);
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 24px;
@@ -794,7 +794,7 @@ footer{
 .about span.fa-quote-left {
     font-size: 20px;
     vertical-align: top;
-    color: #009f4d;
+    color: var(--lau-orange);
 }
 
 .banner-bottom {
@@ -812,7 +812,7 @@ h4.abt-text {
     line-height: 1.4em;
 }
 .abt_bottom{
-    background: #009f4d;
+    background: var(--lau-orange);
 }
 .abt_bottom a.serv_link {
     font-size: 17px;
@@ -931,7 +931,7 @@ p.count-text {
 }
 
 .home-grid span {
-    color: #009f4d;
+    color: var(--lau-orange);
     font-size: 1.5em;
     font-weight: 700;
     position: absolute;
@@ -1001,7 +1001,7 @@ form.newsletter {
     padding: 12px 15px;
     text-transform: uppercase;
     text-decoration: none;
-    background: #009f4d;
+    background: var(--lau-orange);
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1052,7 +1052,7 @@ form.newsletter {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 1em;
-    background: #009f4d;
+    background: var(--lau-orange);
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1074,7 +1074,7 @@ form.newsletter {
     padding-left: 2em;
 }
 .address-row .contact-icon {
-    background: #009f4d;
+    background: var(--lau-orange);
     width:60px;
 	height:60px;
 	line-height: 60px;
