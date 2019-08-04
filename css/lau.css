@@ -38,7 +38,7 @@
 }
 
 .yoga-icon {
-  padding-right: 6px;
+  padding: 4px 6px 4px 4px;
   font-size: 29px;
   color: var(--lau-orange);
 }
@@ -77,4 +77,14 @@ a.move-top {
 .section-image {
   clip-path: circle();
   width: 500px;
+}
+
+#logo .lau-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.lau-sub-title {
+  font-size: 16px;
 }
