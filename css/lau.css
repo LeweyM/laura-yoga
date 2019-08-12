@@ -76,7 +76,9 @@ a.move-top {
 
 .section-image {
   clip-path: circle();
-  width: 500px;
+  -webkit-clip-path: circle();
+  max-height: 34rem;
+  width: auto;
 }
 
 #logo .lau-grid {
