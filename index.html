@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <title>
         Amanacer Yoga - Laura Bassani |
@@ -23,6 +23,10 @@
             false
         );
 
+        function setLang(langCode) {
+            document.documentElement.lang = langCode;
+        }
+
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
@@ -33,6 +37,7 @@
     <!-- bootstrap css -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <!-- custom css -->
+    <link href="css/lang.css" rel="stylesheet"/>
     <link href="css/lau.css" rel="stylesheet"/>
     <!-- fontawesome css -->
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
@@ -74,11 +79,16 @@
             ></label>
             <input type="checkbox" id="drop"/>
             <ul class="menu mt-md-2 ml-auto">
-                <!--                        <li class="mr-lg-4 mr-2 active"><a href="index.html">Inicio</a></li>-->
-                <li class="mr-lg-4 mr-2"><a href="#project-section">El Proyecto</a></li>
-                <li class="mr-lg-4 mr-2"><a href="#about-me-section">Sobre Mi</a></li>
-                <!--                        <li class="mr-lg-4 mr-2"><a href="services.html">Talleres</a></li>-->
-                <!--                        <li class="mr-lg-4 mr-2"><a href="comingsoon.html">Contacto</a></li>-->
+                <li class="mr-lg-4 mr-2 es"><a href="#project-section">El Proyecto</a></li>
+                <li class="mr-lg-4 mr-2 en"><a href="#project-section">The Project</a></li>
+                <li class="mr-lg-4 mr-2 es"><a href="#about-me-section">Sobre Mi</a></li>
+                <li class="mr-lg-4 mr-2 en"><a href="#about-me-section">About Me</a></li>
+                <li class="mr-lg-4 mr-2">
+                    <input type="image" class="langIcon" src="./images/lang/iconfinder_Flag_of_Spain_96317.png"
+                         onClick=setLang("es")>
+                    <input type="image" class="langIcon" src="./images/lang/iconfinder_Flag_of_United_Kingdom_96354.png"
+                         onClick=setLang("en")>
+                </li>
             </ul>
         </nav>
         <!-- //nav -->
@@ -98,42 +108,39 @@
                 <div class="container">
                     <div class="banner-section-info text-center">
                         <h3 class="text-wh">Amanacer Yoga</h3>
-                        <p class="text-li mx-auto mt-2">
+                        <p class="text-li mx-auto mt-2 es">
                             Un espacio seguro de auto conocimiento a trav&eacute;s del Yoga.
+                        </p>
+                        <p class="text-li mx-auto mt-2 en">
+                            A safe space for self-reflection with Yoga.
                         </p>
                         <section class="blog py-5">
                             <div class="container py-md-5">
-                                <!-- <h3 class="heading mb-sm-5 mb-4 text-center">
-                                    Our Products and Services
-                                  </h3> -->
                                 <div class="row blog-grids">
-                                    <div
-                                            class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5"
-                                    >
+                                    <div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
                                         <a href="#hatha-section" class="button-style">
                                             Hatha Yoga
                                         </a>
                                     </div>
-                                    <div
-                                            class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5"
-                                    >
-                                        <a href="#yoga-kids-section" class="button-style">
+                                    <div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+                                        <a href="#yoga-kids-section" class="button-style es">
                                             Yoga Ni&ntilde;os y Ni&ntilde;as
                                         </a>
+                                        <a href="#yoga-kids-section" class="button-style en">
+                                            Yoga Kids
+                                        </a>
                                     </div>
-                                    <div
-                                            class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5"
-                                    >
-                                        <a href="#yoga-familia-section" class="button-style">
+                                    <div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
+                                        <a href="#yoga-familia-section" class="button-style es">
                                             Yoga En Familia
+                                        </a>
+                                        <a href="#yoga-familia-section" class="button-style en">
+                                            Yoga Families
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <!-- <a href="about.html" class="button-style mt-sm-5 mt-4"
-                          >Read More</a
-                        > -->
                     </div>
                 </div>
             </div>
@@ -145,12 +152,21 @@
 <!-- El Proyecto -->
 <section id="project-section" class="about py-5">
     <div class="container py-md-4">
-        <!--  Photo  -->
-
-        <h3 class="heading text-center mb-4">
+        <h3 class="heading text-center mb-4 es">
             El Proyecto
         </h3>
-        <p class="about-text mx-auto text-center">
+        <h3 class="heading text-center mb-4 en">
+            The Project
+        </h3>
+        <p class="about-text mx-auto text-center en">
+            <strong>Amanacer</strong> is a safe space for self exploration through yoga.
+            In my experience, yoga is a way to connect with yourself. Through practice, we can learn about our
+            strengthens and weaknesses. We recognise where we are and where we want to go, management ourselves better,
+            making good decisions to reach our goals, so that the days, the years and our lives, are rich with
+            happiness. This is the first and only purpose of
+            Amanecer, that we are grateful for life, and that with that same love, we live.
+        </p>
+        <p class="about-text mx-auto text-center es">
             Amanacer es un espacio cuidado de auto indagaci&oacute;n a trav&eacute;s del yoga.
             En mi experiencia, el yoga es un camino hacia una misma.
             A trav&eacute;s de la pr&aacute;ctica conocemos nuestras fortalezas y vulnerabilidades.
@@ -169,10 +185,13 @@
 </section>
 <section id="about-me-section" class="about py-5">
     <div class="container py-md-4">
-        <h3 class="heading text-center mb-4">
+        <h3 class="heading text-center mb-4 es">
             Sobre Mi
         </h3>
-        <p class="about-text mx-auto text-center">
+        <h3 class="heading text-center mb-4 en">
+            About Me
+        </h3>
+        <p class="about-text mx-auto text-center es">
             Mi camino en el yoga comenzó hace más de 10 años cuando mi mejor amigo me enseñó unas asanas para poder
             sostener la postura de meditación. En ese momento, con 18 años adquirí el hábito de practicar yoga cada
             mañana.
@@ -181,7 +200,16 @@
             postura acrobática, que por la experiencia de llegar a realizarla.
             Durante estos años, fui encontrando mi propia manera de vivir y transmitir el yoga, que podría definirla en
             una simple imagen: la esterilla de yoga como un espejo donde mirarte.
-
+        </p>
+        <p class="about-text mx-auto text-center en">
+            My yoga journey started at 18, when a close friend taught me 'Asanas' as a means to practice
+            meditation. From then on I began practicing yoga every morning.
+            During this time I trained in Yoga across Argentina and Spain, always looking for a balance
+            between the oriental devotional yoga, and the western and "new age" yoga, which I consider more acrobatic
+            training than a means towards self-reflection and self knowledge.
+            Over the years I have been finding my own way to live and teach yoga, and I can now sum it up in one
+            sentence:
+            The yoga mat is a mirror to better see one's self.
         </p>
 
     </div>
@@ -190,7 +218,7 @@
 
 <!-- Hatha Yoga -->
 <section id="hatha-section" class="py-5">
-    <div class="container py-md-4">
+    <div class="container py-md-4 es">
         <!--  Photo  -->
         <div class="pb-4 d-flex justify-content-center">
             <img src="images/yoga-images/hatha1.jpeg" class="section-image">
@@ -220,11 +248,38 @@
 
         </p>
     </div>
+    <div class="container py-md-4 en">
+        <!--  Photo  -->
+        <div class="pb-4 d-flex justify-content-center">
+            <img src="images/yoga-images/hatha1.jpeg" class="section-image">
+        </div>
+
+        <h3 class="heading text-center mb-4">
+            Hatha Yoga
+        </h3>
+        <p class="about-text mx-auto text-center">
+            Hatha Yoga practice is based on poses (Asanas) synchronised with one's breathing. In each class we
+            will work with all aspects of ourselves; body, mind and emotion.
+        <p class="about-text mx-auto text-center">
+            In an emotional dimension, 'Asanas' affects the endocrine system, which is
+            responsible for our emotions. We know that a balanced endocrine system contributes to emotional
+            wellness.
+        </p>
+        <p class="about-text mx-auto text-center">
+            Our breathing is directly connect with our thoughts. In Yoga, we use breathing to calm our mind. It has been
+            demonstrated that meditation contribute to the generation of new neuronal connections (neuroplasticity),
+            allowing us to make new and better habits.
+        </p>
+        <p class="about-text mx-auto text-center">
+            Yoga postures, 'Asanas', works on strength, stretches, balance and body-awareness, with the goal of
+            well being according the possibilities of each person.
+        </p>
+    </div>
 </section>
 
 
 <section id="yoga-kids-section" class="py-5">
-    <div class="container py-md-4">
+    <div class="container py-md-4 es">
         <!--  Photo  -->
         <div class="pb-4 d-flex justify-content-center">
             <img src="images/yoga-images/kids1.jpeg" class="section-image">
@@ -251,10 +306,34 @@
             mismos.
         </p>
     </div>
+    <div class="container py-md-4 en">
+        <!--  Photo  -->
+        <div class="pb-4 d-flex justify-content-center">
+            <img src="images/yoga-images/kids1.jpeg" class="section-image">
+        </div>
+
+        <h3 class="heading text-center mb-4">
+            Yoga Kids
+        </h3>
+        <p class="about-text mx-auto text-center">
+            In our classes we will work with different stories that will guide us through the 'Asanas'.
+        </p>
+        <p class="about-text mx-auto text-center">
+            For children, these stories are a reflection of their inner world. Through them, they can recognise their
+            own fears, finding different solutions to their conflicts. Through yoga we will connect with our emotions,
+            looking for different ways to express them.
+        </p>
+        <p class="about-text mx-auto text-center">
+            My purpose is that the children start to connect in a conscience way with their body, breathing, emotions
+            and expression,
+            stimulating their self-esteem and confidence. In each class we will get to know others, and in doing so get
+            to know ourselves.
+        </p>
+    </div>
 </section>
 
 <section id="yoga-familia-section" class="py-5">
-    <div class="container py-md-4">
+    <div class="container py-md-4 es">
         <!--  Photo  -->
         <div class="pb-4 d-flex justify-content-center">
             <img src="images/yoga-images/familia2.jpg" class="section-image">
@@ -273,6 +352,24 @@
             conciencia corporal de los niños, niñas y las familias.
         </p>
     </div>
+    <div class="container py-md-4 en">
+        <div class="pb-4 d-flex justify-content-center">
+            <img src="images/yoga-images/familia2.jpg" class="section-image">
+        </div>
+
+        <h3 class="heading text-center mb-4">
+            Yoga Families
+        </h3>
+        <p class="about-text mx-auto text-center">
+            The purpose of family yoga is to provide a space for emotional communication in our families and to enrich
+            our relationships.
+        </p>
+        <p class="about-text mx-auto text-center">
+            In each class we will work with 'Asanas', practicing breathing and meditation in group and pairs. Over time
+            we will deepen our awareness of ourselves, strengthen our bonds as families, and enjoy high quality moments
+            together.
+        </p>
+    </div>
 </section>
 
 
@@ -285,16 +382,8 @@
                 <span class="fas fa-om yoga-icon"></span>Amanacer Yoga
             </a>
         </h2>
-        <!-- //logo -->
-        <!-- address -->
         <div class="contact-left-footer mt-4">
             <ul>
-                <!--            <li>-->
-                <!--              <p>-->
-                <!--                <span class="fa fa-map-marker mr-2"></span>Agriculture Business,-->
-                <!--                2nd Block, USA-->
-                <!--              </p>-->
-                <!--            </li>-->
                 <li class="mx-4">
                     <p><span class="fa fa-phone mr-2"></span>+34 722 419 184</p>
                 </li>
@@ -312,8 +401,6 @@
                 </li>
             </ul>
         </div>
-        <!-- //address -->
-        <!-- social icons -->
         <div class="footercopy-social my-4">
             <ul>
                 <!--                <li class="mx-2">-->
@@ -351,7 +438,6 @@
         <!-- //copyright -->
     </div>
 </footer>
-<!-- //footer -->
 
 <a href="#home" class="move-top fas fa-chevron-circle-up"/>
 

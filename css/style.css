@@ -141,14 +141,14 @@ nav a {
     font-weight: 700;
 }
 
+nav a:hover {
+    color: white;
+}
+
 
 nav ul li ul li:hover { background: #f8f9fa; }
 
-/* Background color change on Hover */
-nav a:hover { 
-	color: #ddd;
-}
-.menu li.active  a{ 
+.menu li.active  a{
 	color: #fff;
 }
 
@@ -450,6 +450,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .button-style {
+    width: 100%;
     padding: 15px 40px;
     color: #fff;
     font-size: 16px;
@@ -462,7 +463,8 @@ li > a:only-child:after { content: ''; }
 }
 
 .button-style:hover {
-    color: #fff;
+    color: var(--lau-orange);
+    border-color: var(--lau-orange);
 }
 
 /*-- //banner style --*/

@@ -5,6 +5,20 @@
   font-size: 20px;
   margin: 27px;
 }
+.langIcon {
+  transition: 200ms;
+  width: 22px;
+  height: 22px;
+  opacity: 0.6;
+}
+
+.langIcon:focus {
+  outline: none;
+}
+
+.langIcon:hover {
+  opacity: 1;
+}
 
 .yoga {
   position: relative;
