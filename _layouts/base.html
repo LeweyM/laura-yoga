@@ -6,10 +6,10 @@
 </head>
 <body>
 <script>
-    var lang = navigator.language || navigator.userLanguage;
-    if (lang == "es")
+    const lang = navigator.language || navigator.userLanguage;
+    if (lang === "es")
         window.location = '/es/';
-    else if (lang == "en")
+    else if (lang === "en")
         window.location = '/en/';
     else
         window.location = '/es/';
