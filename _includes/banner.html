@@ -1,0 +1,33 @@
+<section class="banner_section" id="home">
+    <div class="csslider infinity" id="slider1">
+        <input type="radio" name="slides" checked="checked" id="slides_1"/>
+        <input type="radio" name="slides" id="slides_2"/>
+        <input type="radio" name="slides" id="slides_3"/>
+        <input type="radio" name="slides" id="slides_4"/>
+        <div class="banner-top">
+            <div class="overlay">
+                <div class="container">
+                    <div class="banner-section-info text-center">
+                        <h3 class="text-wh">Amanacer Yoga</h3>
+                        <p class="text-li mx-auto mt-2 es">
+                            {{site.data.title[page.lang].subtitle}}
+                        </p>
+                        <section class="blog py-5">
+                            <div class="container py-md-5">
+                                <div class="row blog-grids">
+                                    {% for item in site.data.nav[page.lang].banner %}
+                                        <div class="col-lg-4 col-md-6 mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
+                                            <a href="{{item.link}}" class="button-style">
+                                                {{item.label}}
+                                            </a>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

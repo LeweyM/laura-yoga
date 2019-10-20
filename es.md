@@ -1,0 +1,4 @@
+---
+layout: landingPage
+lang: es
+---

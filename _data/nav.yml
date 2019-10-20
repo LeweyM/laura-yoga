@@ -1,0 +1,26 @@
+en:
+  main:
+    - label: The Project
+      link: '#project'
+    - label: About Me
+      link: '#about-me'
+  banner:
+    - label: Hatha Yoga
+      link: '#hatha'
+    - label: Yoga Kids
+      link: '#kids'
+    - label: Yoga Families
+      link: '#families'
+es:
+  main:
+    - label: El Proyecto
+      link: '#project'
+    - label: Sobre Mi
+      link: '#about-me'
+  banner:
+    - label: Hatha Yoga
+      link: '#hatha'
+    - label: Yoga Niños y Niñas
+      link: '#kids'
+    - label: Yoga En Familia
+      link: '#families'

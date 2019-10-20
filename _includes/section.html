@@ -1,0 +1,26 @@
+{% assign section = include.section[page.lang] %}
+{% assign photoPosition = include.section.photoPosition %}
+{% assign imgSrc = include.section.imgSrc %}
+
+<section id="{{ include.section.ref }}" class="about py-5">
+    <div class="container py-md-4">
+        {% if photoPosition == 'top' %}
+        <div class="pb-4 d-flex justify-content-center">
+            <img src="{{ imgSrc }}" class="section-image">
+        </div>
+        {% endif %}
+        <h3 class="heading text-center mb-4">
+            {{ section.title }}
+        </h3>
+        {% for p in section.paragraphs %}
+        <p class="about-text mx-auto text-center">
+            {{ p }}
+        </p>
+        {% endfor %}
+        {% if photoPosition == 'bottom' %}
+        <div class="pb-4 d-flex justify-content-center">
+            <img src="{{ imgSrc }}" class="section-image">
+        </div>
+        {% endif %}
+    </div>
+</section>

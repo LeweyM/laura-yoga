@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign sections = site.data.sections %}
+
+{{document.documentElement.lang}}
+
+{% include section.html section=sections.project %}
+{% include section.html section=sections.aboutme %}
+{% include section.html section=sections.hatha %}
+{% include section.html section=sections.yogakids %}
+{% include section.html section=sections.family %}

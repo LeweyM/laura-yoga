@@ -1,0 +1,32 @@
+<div class="container">
+    <nav class="py-4 d-lg-flex">
+        <div id="logo">
+            <h1>
+                <a href="index.html" class="lau-grid">
+                    <span class="fas fa-om yoga-icon lau-grid"></span>
+                    <span>Amanacer</span>
+                    <span></span> <!-- empty for grid -->
+                    <span class="lau-sub-title">Laura Bassani</span>
+                </a>
+            </h1>
+        </div>
+        <label for="drop" class="toggle"
+        ><span class="fa fa-bars"></span
+        ></label>
+        <input type="checkbox" id="drop"/>
+        <ul class="menu mt-md-2 ml-auto">
+            {% for item in site.data.nav[page.lang].main %}
+                <li class="mr-lg-4 mr-2 es"><a href="{{item.link}}">{{item.label}}</a></li>
+            {% endfor %}
+            <li class="mr-lg-4 mr-2">
+                {% for item in site.data.lang %}
+                    <a href="/{{ item.lang }}">
+                        <img type="image"
+                             class="langIcon {% if item.lang == page.lang %} langActive {% endif %}"
+                             src="{{ item.imgSrc }}">
+                    </a>
+                {% endfor %}
+            </li>
+        </ul>
+    </nav>
+</div>

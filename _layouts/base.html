@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Amazing Example Website</title>
+</head>
+<body>
+<script>
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang == "es")
+        window.location = '/es/';
+    else if (lang == "en")
+        window.location = '/en/';
+    else
+        window.location = '/es/';
+</script>
+</body>
+</html>

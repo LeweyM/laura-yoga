@@ -1,3 +1,0 @@
-.en, .es { display:none; } /* hide all elements with a language class */
-
-.en:lang(en), .es:lang(es) { display:block; } /* show those elements that match their language class */

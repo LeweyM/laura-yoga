@@ -1,0 +1,60 @@
+ref: project
+imgSrc: /assets/images/laura1.jpg
+photoPosition: bottom
+es:
+  title: El Proyecto
+  paragraphs:
+    - Amanacer es un espacio cuidado de auto indagaci&oacute;n a trav&eacute;s del yoga.
+        En mi experiencia, el yoga es un camino hacia una misma.
+
+    - A trav&eacute;s de la pr&aacute;ctica conocemos nuestras fortalezas y vulnerabilidades.
+        Reconocemos d&oacute;nde estamos y a d&oacute;nde queremos llegar, para gestionarnos mejor, tomando mejores
+        decisiones en funci&oacute;n de nuestros objetivos.
+
+    - <em>Para que los d&iacute;as, los a&ntilde;os y la vida, se vivan con felicidad.</em> Esta es la
+        primera y la &uacute;ltima intenci&oacute;n de
+        Amanacer, <em>que amemos haber nacido</em>, y que con ese mismo amor, vivamos.
+
+en:
+  title: The Project
+  paragraphs:
+    - Amanacer is a safe space for self exploration through yoga.
+      In my experience, yoga is a way to connect with yourself. Through practice, we can learn about our
+      strengthens and weaknesses. We recognise where we are and where we want to go, management ourselves better,
+      making good decisions to reach our goals, so that the days, the years and our lives, are rich with
+      happiness.
+    - This is the first and only purpose of
+      Amanecer, that we are grateful for life, and that with that same love, we live.
+
+#
+#
+#El Proyecto
+#</h3>
+#<h3 class="heading text-center mb-4 en">
+#The Project
+#</h3>
+#<p class="about-text mx-auto text-center en">
+#Amanacer is a safe space for self exploration through yoga.
+#In my experience, yoga is a way to connect with yourself. Through practice, we can learn about our
+#strengthens and weaknesses. We recognise where we are and where we want to go, management ourselves better,
+#making good decisions to reach our goals, so that the days, the years and our lives, are rich with
+#happiness. This is the first and only purpose of
+#Amanecer, that we are grateful for life, and that with that same love, we live.
+#</p>
+#<p class="about-text mx-auto text-center es">
+#Amanacer es un espacio cuidado de auto indagaci&oacute;n a trav&eacute;s del yoga.
+#En mi experiencia, el yoga es un camino hacia una misma.
+#A trav&eacute;s de la pr&aacute;ctica conocemos nuestras fortalezas y vulnerabilidades.
+#Reconocemos d&oacute;nde estamos y a d&oacute;nde queremos llegar, para gestionarnos mejor, tomando mejores
+#decisiones en
+#funci&oacute;n de nuestros objetivos.
+#<em>Para que los d&iacute;as, los a&ntilde;os y la vida, se vivan con felicidad.</em> Esta es la
+#primera y la &uacute;ltima intenci&oacute;n de
+#Amanacer, <em>que amemos haber nacido</em>, y que con ese mismo amor, vivamos.
+#</p>
+#<div class="pb-4 d-flex justify-content-center">
+#<img src="images/laura1.jpg" class="section-image">
+#</div>
+#
+#</div>
+#</section>
