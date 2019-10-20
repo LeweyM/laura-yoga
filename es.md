@@ -1,5 +1,5 @@
 ---
 layout: landingPage
-permalink: /es/
+permalink: /es
 lang: es
 ---
